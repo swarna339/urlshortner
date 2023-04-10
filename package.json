@@ -1,0 +1,25 @@
+{
+  "name": "urlshortner",
+  "version": "1.0.0",
+  "description": "\"This is an URL Shortner microservice application\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "\"parser\"",
+    "\"URL\"",
+    "\"SHortner\""
+  ],
+  "author": "\"Swarna sangana\"",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "shortid": "^2.2.16",
+    "valid-url": "^1.0.9"
+  }
+}
